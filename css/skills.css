@@ -1,0 +1,58 @@
+.ArtcSkills{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8em;
+}
+
+.Article{
+    margin-right: 10em;
+    margin-left: 10em;
+    width: 15%;
+}
+
+.CVdownload{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 8.5em;
+    margin-top: 8em;
+}
+
+.CVdownloadutton{
+    border: #212121 solid 2px;
+    border-radius: 10px;
+    width: 15%;
+}
+
+.CVdownloadutton i{
+    padding: 0.5em;
+    padding-left: 0.2em;
+    margin-left: 0.5em;
+}
+
+.CVdownloadutton a {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.divdashed{
+    display: flex;
+    justify-content: center;
+}
+
+.rulerTiret{
+    border-bottom: #212121 dashed 2px ;
+    width: 80%;
+    margin-bottom: 3em;
+}
+
+.h1Gallery{ color: #212121;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
