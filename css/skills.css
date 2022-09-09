@@ -56,3 +56,65 @@
     font-size: 4em;
     margin-bottom: 0px;
 }
+
+.GalleryCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerGallery{
+    background-color: #212121;
+    width: 75%;
+    height: 25em;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.imgGallery{
+    height: 24em;
+    width: 30em;
+    padding: 0.5em;
+    border-radius: 15px;
+}
+
+.TitleGallery{
+    font-weight: 1000;
+    font-size: 2em;
+}
+
+.PGallery{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.TagGallery{
+    margin-top: 2.5em;
+}
+
+.tag{
+    background-color: #f7cc00;
+    padding:0.5em;
+    border-radius: 50px;
+    color:#212121;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+.linkGallery {
+    text-decoration: none;
+    font-size: 5em;
+    display: flex;
+    justify-content: flex-end;
+    margin-right:0.5em;
+}
+
+.linkGallery i {
+    color: #f7cc00;
+}
+
