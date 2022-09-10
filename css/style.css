@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   }
   
   .topnav {
@@ -43,6 +46,7 @@ body {
     text-transform: uppercase;
     font-size: 2.8em;
     margin-top: 0px;
+    font-style: italic;
  }
 
 
@@ -161,4 +165,18 @@ div.tiret {
     }
 
 
-  
+.footerFlex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: normal;
+  align-content: normal;
+  padding: 3em;
+  background-color: #212121;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.2em;
+
+}

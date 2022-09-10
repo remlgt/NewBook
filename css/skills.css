@@ -6,9 +6,16 @@
 }
 
 .Article{
-    margin-right: 10em;
-    margin-left: 10em;
-    width: 15%;
+    margin-right: 7em;
+    margin-left: 7em;
+    width: 25%;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.ArticTitle{
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 .CVdownload{
@@ -67,20 +74,20 @@
 .ContainerGallery{
     background-color: #212121;
     width: 75%;
-    height: 25em;
+    height: 100%;
     color: aliceblue;
     display: flex;
     flex-direction: row;
     margin-bottom: 10em;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .imgGallery{
-    height: 24em;
-    width: 30em;
-    padding: 0.5em;
-    border-radius: 15px;
+    height: 100%;
+    width: 220%;
+    padding: 2em;
+    border-radius: 5%;
 }
 
 .TitleGallery{
@@ -89,8 +96,11 @@
 }
 
 .PGallery{
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 1.8em;
+    font-weight: 300;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
 }
 
 .TagGallery{
@@ -99,8 +109,11 @@
 
 .tag{
     background-color: #f7cc00;
-    padding:0.5em;
-    border-radius: 50px;
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:0.4em;
+    padding-bottom:0.4em;
+    border-radius: 10px;
     color:#212121;
     margin-left:1em;
     margin-right:1em;
