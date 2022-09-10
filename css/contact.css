@@ -34,10 +34,10 @@
     margin-bottom: 1em;
   }
 
-  .form-group:focus {
+  /* .form-group:focus {
     border-color: #28a745;
     box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-  }
+  } */
 
   /* Left contact page */
   .form-horizontal {
