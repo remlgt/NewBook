@@ -6,21 +6,23 @@ body {
     font-family: 'Ubuntu', sans-serif;
   }
   
-  .topnavlight {
-    overflow: hidden;
-    background-color: #212121;
-    padding: 2em;
-    /* position: fixed; */
-  }
+
+
+.topnavlight {
+  overflow: hidden;
+  background-color: #212121;
+  padding: 2em;
+  list-style: none;
+}
   
-  .topnavlight a {
-    float: left;
-    color: aliceblue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 600;
+.topnavlight a {
+  float: left;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
   }
   
 .topnavlight a:hover {
@@ -31,12 +33,8 @@ body {
 
 .HomeDiv{
   background-color: #f7cc00;
-   padding:2em;
+  padding:2em;
 }
-/* 
-.HomeDivDArk{
-  background-color: #663906;
-} */
 
 .h1Home{
     color: #212121;
@@ -58,6 +56,9 @@ body {
     font-style: italic;
  }
 
+.ruler{
+  opacity: 100;
+}
 
 hr.rulerY{
   margin: 20px auto 30px;
@@ -66,6 +67,7 @@ hr.rulerY{
   border: 0;
   border-top: solid 5px;
   text-align: center;
+  opacity: 100;
 }
 hr.rulerY:after {
   content: "\f11b";
@@ -131,18 +133,20 @@ hr.ruler{
     padding-bottom: 8.5em;
 }
 
-
-.rulerSEER {
-     border-bottom: #212121 solid 2px; 
-    width: 10%;
+.ligne_horizontal { 
+  display: flex; 
+  flex-direction: row; 
+  } 
   
-}
+  .ligne_horizontal:before, 
+  .ligne_horizontal:after { 
+  content: ""; 
+  flex: 1 1; 
+  border-bottom: 2px solid #000; 
+  margin: auto; 
+  } 
 
-.rulerSEEL{
-     border-bottom: #212121 solid 2px; 
-    width: 10%;
-    
-}
+
 
 .SeeMoreButton{
     border: #212121 solid 2px;

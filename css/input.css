@@ -4,7 +4,7 @@
     display: flex;
     max-width: 200px;
     min-width: 200px;
-    height: 200px;
+    height: 100px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -21,7 +21,7 @@ input[type="checkbox"].switch_2{
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  width: 100px;
+  width: 6em;
   height: 8px;
   background: #444;
   border-radius: 5px;

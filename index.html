@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>fuck Bulma!</title>
+    <title>Book of Remi Lgt</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/input.css">
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/MediaQueries.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/08e4584024.js" crossorigin="anonymous"></script>
 
@@ -16,21 +17,38 @@
 
   <body>
    
-    <div class="topnavlight">
-        <a class="active" href="#home">HOME</a>
-        <a href="#news">SKILLS</a>
-        <a href="#contact">GALLERY</a>
-        <a href="#about">CONTACT</a>
+  <header>
+
+    <div class="responsiveBurger">
+      <button id="menu-burger"><i class="fa-solid fa-bars"></i></button>
+        <nav class="nav" id="nav">
+          <div class="nav-container">
+            <div class="menu">
+              <ul>
+                <li> <a href="#" class="active"> Home </a> </li>
+                <li> <a href="#"> Skills </a> </li>
+                <li> <a href="#"> Gallery </a> </li>
+                <li> <a href="#"> Contact </a> </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </nav>
     </div>
 
-    <div class="HomeDiv">
-
+    <nav class="topnavlight">
+        <a class="active" href="#home">HOME</a>
+        <a href="#news">SKILLS</a>
+        <a href="#GalleryDiv">GALLERY</a>
+        <a href="#contact">CONTACT</a>
+    
         <div class="switch_box box_2">
-            <input type="checkbox" class="switch_2">
-        </div>
-        
+          <input type="checkbox" class="switch_2" checked>
+      </div>
+    </nav>
+  </header>
 
-
+    <div class="HomeDiv">
 
        <h1 class="h1Home">rémi loigerot</h1>
        <h3 class="h3Home">Web developper</h1>
@@ -39,26 +57,25 @@
 
         <p class="PHome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, numquam assumenda tempore id minima hic quo sapiente odit maxime placeat et veritatis temporibus doloremque eius, culpa quaerat! Voluptatum, cum neque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam et harum eligendi dolorem molestias quis, enim est nulla numquam, obcaecati placeat tenetur voluptatem sint. Ad temporibus mollitia cum necessitatibus explicabo?Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> cum fugit sapiente fugiat perferendis autem hic sint mollitia, praesentium dolorem, soluta culpa impedit nemo corporis nulla vero magnam deleniti nisi.ue eius, culpa quaerat! Voluptatum, cum neque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam et harum eligendi dolorem molestias quis, enim est nulla numquam, obcaecati placeat tenetur voluptatem sint. Ad temporibus mollitia cum necessitatibus explicabo?Lorem, ipsum dolor sit amet consectetur </p>
         
-        <div class="seeMore">
+        <div class="seeMore ligne_horizontal">
 
-            <div class="rulerSEER"></div>
+           
 
                 <div class="SeeMoreButton">  
                     <i class="fa-solid fa-arrow-down"></i>  
                     <a href="#"> See More </a>
                 </div>
 
-            <div class="rulerSEEL"></div>
+            
 
         </div>
 
-        <div class="tiret"><span>Ton texte</span></div>
 
     </div>
 
     <div class="SkillsDiv">
 
-        <h1 class="h1Home">SKILLS</h1>
+        <h1 class="h1Home ArcH1">SKILLS</h1>
         <hr class="ruler"></hr>
 
         <div class="ArtcSkills">
@@ -83,7 +100,7 @@
 
         </div>
 
-        <div class="CVdownload">
+        <div class="CVdownload ligne_horizontal">
 
             <div class="rulerSEER"></div>
 
@@ -102,7 +119,7 @@
         <div class="rulerTiret"></div>
     </div>
 
-    <div class="GalleryDiv">
+    <div class="GalleryDiv" id="GalleryDiv">
 
         <h1 class="h1Gallery">GALLERY</h1>
         <hr class="ruler"></hr>
@@ -248,7 +265,7 @@
 
 
         <script src="JS/darkmode.js"></script>    
-        <script src="JS/contact.js"></script>
+        <script src="JS/script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 

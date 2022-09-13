@@ -10,15 +10,19 @@ function SwitchTheme(){
             document.querySelector('body').style.backgroundColor='#fff';
             document.querySelector('.SkillsDiv').style.color='#212121';
             document.querySelector('.ArticTitle').style.color='#212121';
+            document.querySelector('.h1Gallery').style.color='#212121';
+            document.querySelector('.ArcH1').style.color='#212121';
             document.querySelector('#contact').style.border='#f7cc00 solid 4em';
 
         console.log('thm checked');
         }else{
-            document.querySelector('.HomeDiv').style.backgroundColor='#7A3803';
+            document.querySelector('.HomeDiv').style.backgroundColor='#e68100';
             document.querySelector('body').style.backgroundColor='#0A0708';
             document.querySelector('.SkillsDiv').style.color='#fff';
             document.querySelector('.ArticTitle').style.color='#fff';
-            document.querySelector('#contact').style.border='#7A3803 solid 4em';
+            document.querySelector('.h1Gallery').style.color='#fff';
+            document.querySelector('.ArcH1').style.color='#fff';
+            document.querySelector('#contact').style.border='#e68100 solid 4em';
 
         console.log('thm not checked');
 
@@ -27,3 +31,4 @@ function SwitchTheme(){
     };
 
 });
+
