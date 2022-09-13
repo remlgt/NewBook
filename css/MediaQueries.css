@@ -5,13 +5,12 @@
 
 
 /* Start Nav Style */
-@media screen and (max-width: 768px)
+@media screen and (max-width: 900px)
 {
 
 .responsiveBurger{
     display: block;
-  font-family: FontAwesome;
-
+    font-family: FontAwesome;
     background-color: #212121;
     color:#f7cc00 ;
 }
@@ -144,5 +143,31 @@
 	color: #ccc;
 }
 /* End Nav Style */
+
+.PHome{
+    text-align: center;
+    color: #212121;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 1.7em;
+    padding: 2em;
+}
+
+.SeeMoreButton{
+    width: 40%;
+}
+
+
+
+}
+
+@media screen and (max-width: 400px)
+{
+
+    .SeeMoreButton{
+        width: 50%;
+    }
+    
 
 }

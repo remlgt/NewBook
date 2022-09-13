@@ -131,6 +131,8 @@ hr.ruler{
     flex-wrap: nowrap;
     justify-content: center;
     padding-bottom: 8.5em;
+    width: 25%;
+    margin:auto;
 }
 
 .ligne_horizontal { 
@@ -151,7 +153,8 @@ hr.ruler{
 .SeeMoreButton{
     border: #212121 solid 2px;
     border-radius: 10px;
-    width: 7.5%;
+    width: 30%;
+    text-align: center;
 }
 
 .SeeMoreButton i{
