@@ -18,7 +18,9 @@
 .topnavlight{
     display: none;
 }
-
+.FlexSwitch{
+	display: none;
+}
 
 #menu-burger
 {

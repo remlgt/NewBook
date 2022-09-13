@@ -1,4 +1,4 @@
-.switch_box{
+/* .switch_box{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -75,7 +75,7 @@ input[type="checkbox"].switch_2:checked:after{
 
 /* Responsive version */
 
-input[type="checkbox"].switch_1{
+/* input[type="checkbox"].switch_1{
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -131,4 +131,29 @@ input[type="checkbox"].switch_1:checked:after{
           transform: scale(0);
 }
 
+ */
 
+.FlexSwitch{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3em;
+}
+
+.switch_box{
+  color: #212121;
+  font-size: 3em;
+  right: 5%;
+}
+
+.switch_boxMbl{
+  color: #f7cc00;
+  font-size: 1.1em;
+}
+
+.switch_2{
+  display: none;
+}
+
+.switch_1{
+  display: none;
+}
