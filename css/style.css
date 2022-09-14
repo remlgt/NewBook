@@ -56,64 +56,29 @@ body {
     font-style: italic;
  }
 
-.ruler{
-  opacity: 100;
+
+ .RulerGP{
+  font-family:FontAwesome;
+  font-size:3em;
 }
 
-hr.rulerY{
-  margin: 20px auto 30px;
-  padding: 0;
-  max-width: 200px;
-  border: 0;
-  border-top: solid 5px;
-  text-align: center;
-  opacity: 100;
-}
-hr.rulerY:after {
-  content: "\f11b";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -.7em;
-  padding: 0 .25em;
-  font-size: 2em;
-}
-
-hr.rulerY {
-    border-color: #212121;
-}
-
-hr.rulerY:after {
-    color: #212121;
-    background-color: #f7cc00;
-}
-
-hr.ruler{
-    margin: 20px auto 30px;
-    padding: 0;
-    max-width: 200px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-  }
-  hr.ruler:after {
-    content: "\f11b";
-    font-family: FontAwesome;
-    display: inline-block;
-    position: relative;
-    top: -.7em;
-    padding: 0 .25em;
-    font-size: 2em;
-  }
+.ligneGP{
+  display:flex;
+  flex-direction:row;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width:20%;
+  margin: auto;
   
-  hr.ruler {
-      border-color: #212121;
-  }
-  
-  hr.ruler:after {
-      color: #212121;
-      background-color: white;
-  }
+} 
+
+.ligneGP:before,
+.ligneGP:after{
+  content:" ";
+  flex: 1 1; 
+  border-bottom: 4px solid black;
+  margin:auto;
+}
 
 .PHome{
     text-align: center;

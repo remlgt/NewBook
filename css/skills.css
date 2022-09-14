@@ -90,8 +90,8 @@
 }
 
 .imgGallery{
-    height: 40em;
-    width: 50em;
+    height: 120%;
+    width: 100%;
     padding: 2em;
     border-radius: 5%;
 }
