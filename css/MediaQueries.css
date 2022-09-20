@@ -3,6 +3,7 @@
 	display: none;
 }
 
+/* Laptop & Macbook classic responsive */
 
 @media screen and (max-width: 1600px)
 {
@@ -29,6 +30,7 @@
 
 }
 
+/* Other Laptop responsive */
 
 @media screen and (max-width: 1400px)
 {
@@ -46,9 +48,43 @@
 
 }
 
+/* Tablet & Ipad responsive */
 
+@media screen and (max-width: 900px)
+{
+	.Article{
+		margin-right: 1em;
+		margin-left: 1em;
+		width: 60%;
+		font-size: 0.9em;
+		font-weight: 300;
+	}
 
-/* Body Mobile etc */
+	.TitleGallery{
+		font-weight: 700;
+		font-size: 1.8em;
+		margin-top: 1em;
+	}
+	
+	.PGallery{
+		font-size: 0.9em;
+		font-weight: 300;
+		margin-left: 2em;
+		margin-right: 2em;
+		margin-bottom: 2em;
+	}
+
+	.tag{
+		margin: auto
+	}
+
+	.linkGallery{
+		font-size: 2em;
+	}
+
+}
+
+/* Mobile responsive*/
 
 @media screen and (max-width: 650px)
 {
@@ -311,8 +347,7 @@
     padding-bottom:0.4em;
     border-radius: 10px;
     color:#212121;
-    margin-left:1em;
-    margin-right:1em;
+    margin:0;
 }
 
 .linkGalleryMobile {
