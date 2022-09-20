@@ -3,6 +3,20 @@
 	display: none;
 }
 
+
+@media screen and (max-width: 1600px)
+{
+	.Article{
+		margin-right: 2em;
+		margin-left: 2em;
+		width: 55%;
+		font-size: 1.2em;
+		font-weight: 300;
+	}
+
+}
+
+
 @media screen and (max-width: 1400px)
 {
 	.Article{
