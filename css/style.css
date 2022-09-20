@@ -31,6 +31,28 @@ body {
     border-radius: 10px;
 }
 
+.FlexSwitch{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3em;
+}
+
+.switch_box{
+  color: #212121;
+  font-size: 3em;
+  right: 5%;
+}
+
+.switch_boxMbl{
+  color: #f7cc00;
+  font-size: 1.1em;
+}
+
+.switch_2{
+  display: none;
+}
+
+
 .HomeDiv{
   background-color: #f7cc00;
   padding:2em;

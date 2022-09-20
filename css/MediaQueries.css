@@ -116,7 +116,7 @@
 .navigationMobile {
 	background-color: #1E1E23;
 	height: 65px;
-  }
+}
   #ToggleMenuMobile {
 	display: flex;
 	flex-direction: column;
@@ -208,6 +208,7 @@
   {
 	transform: none;
   }
+
 
   .AboutMobile{
 	background-color: #f7cc00;
