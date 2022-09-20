@@ -24,7 +24,7 @@
 
 
       <nav class="topnavlight">
-        <a class="active" href="#home">HOME</a>
+        <a class="active" href="#HOME">HOME</a>
         <a href="#SKILLS">SKILLS</a>
         <a href="#GalleryDiv">GALLERY</a>
         <a href="#contact">CONTACT</a>
@@ -35,7 +35,7 @@
 
     </header>
 
-    <div class="HomeDiv">
+    <div class="HomeDiv" id="HOME">
 
       <div class="FlexSwitch">
         <div class="switch_box box_2">
@@ -65,7 +65,7 @@
 
           <div class="SeeMoreButton">
             <i class="fa-solid fa-circle-chevron-down"></i>
-            <a href="#"> See More </a>
+            <a href="#GalleryDiv"> See More </a>
           </div>
 
         </div>
@@ -283,17 +283,17 @@
         <span></span>
         <span></span>
         <ul class="UlMobile" id="menuMobile">
-          <li><a class="AMobile" href="#">About</a></li>
-          <li><a class="AMobile" href="#">Skills</a></li>
+          <li><a class="AMobile" href="#ABOUTMBL">About</a></li>
+          <li><a class="AMobile" href="#SKILLSMOBILE">Skills</a></li>
           <li><a class="AMobile" href="#GALLERYMOBILE">Gallery</a></li>
-          <li><a class="AMobile" href="#">Contact</a></li>
+          <li><a class="AMobile" href="#CONTACTMBL">Contact</a></li>
           <li><label for="LightSwitchMobile"> <i class="fa-regular fa-lightbulb"></i> </label>
             <input type="checkbox" class="switch_1" id="LightSwitchMobile" checked></li>
         </ul>
       </div>
     </nav>
 
-    <div class="AboutMobile">
+    <div class="AboutMobile" id="ABOUTMBL">
 
       <h3 class="TitleMainMobileH3"> Rémi LOIGEROT </h3>
       <h5 class="TitleMainMobileH5"> Web developper </h5>
@@ -315,7 +315,7 @@
 
    
 
-    <div class="SkillsDivMobile" id="SKILLS">
+    <div class="SkillsDivMobile" id="SKILLSMOBILE">
 
       <h1 class="h1HomeMobile ArcH1">SKILLS</h1>
 
@@ -436,17 +436,17 @@
       </div>
     </div>
 
-    <div class="ContactMobile">
+    <div class="ContactMobile" id="CONTACTMBL">
 
       <form class="formContactMobile">
-        <h2>CONTACT US</h2>
+        <h2>CONTACT</h2>
         <p class="pContactMobile" type="Name:"><input class="InputMobileContact" placeholder="Name"></input></p>
         <p class="pContactMobile" type="Email:"><input class="InputMobileContact"  placeholder="your.mail@soft.co"></input></p>
         <p class="pContactMobile" type="Message:"><input class="InputMobileContact"  placeholder="Hello World !"></input></p>
         <button class="ContactBtnMobile">Send Message</button>
       </form>
 
-      <ul class="SocialIconMobile">
+      <ul class="SocialIconMobile" style="padding-left: 0px;">
         <li><a href="https://github.com"><i class="fa fa-github" aria-hidden="true"></i></a></li>
         <li><a href="#"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
         <li><a href="#"><i class="fa-brands fa-stack-overflow" aria-hidden="true"></i></a></li>

@@ -82,6 +82,29 @@
 		font-size: 2em;
 	}
 
+	.formContactDesktop{
+		padding: 0;
+		width: 100%;
+	}
+
+	  /* Begin Right Contact Page */
+	  .direct-contact-container {
+		max-width: 80%;
+		margin-top:3.2em;
+	  }
+	  
+	  /* Location, Phone, Email Section */
+	  .contact-list {
+		list-style-type: none;
+		/* margin-left: -30px; */
+		padding-right: 20px;
+	  }
+	  
+	  .list-item {
+		line-height: 4;
+		color: #aaa;
+	  }
+
 }
 
 /* Mobile responsive*/
@@ -236,7 +259,8 @@
 	padding-top: 2em;
 }
 
-  .ArtcSkillsMobile{
+
+.ArtcSkillsMobile{
     display: flex;
     justify-content: center;
 	align-items: center;
@@ -269,7 +293,7 @@
 .CVdownloadutton{
     border: #212121 solid 2px;
     border-radius: 10px;
-    width: 60%;
+    width: 75%;
 }
 .CVdownloadutton i{
     padding: 0.5em;
@@ -342,13 +366,14 @@
 
 .tagMobile{
     background-color: #f7cc00;
-    padding-left:1em;
-    padding-right:1em;
+    padding-left:0.5em;
+    padding-right:0.5em;
     padding-top:0.4em;
     padding-bottom:0.4em;
     border-radius: 10px;
     color:#212121;
     margin:0;
+	font-size: 0.75em;
 }
 
 .linkGalleryMobile {
@@ -373,19 +398,17 @@
 	text-align: center;
 	color: #F5F6FA;
 	margin-bottom: 3em;
+	margin-left:1.5em;
+	margin-top: 2em;
 }
 
 .formContactMobile{
-	padding:3em;
-}
-
-.formContactMobile{
-	width:340px;
+	width:250px;
 	height:440px;
 	margin: 0;
+	padding-left: 10%;
 	box-sizing:border-box;
 	position:relative;
-	
 }
 
 .InputMobileContact{
@@ -427,13 +450,12 @@
 
   
 .SocialIconMobile {
-	width: 90%;
+	width: 100%;
 	margin:0;
-	display:flex;
-	justify-content: center;
-	align-items: center;
+	display: flex;
 	padding-top: 6em;
 	padding-bottom: 2.5em;
+	justify-content: center;
   }
   
   .SocialIconMobile  li {
@@ -445,19 +467,11 @@
 	height:60px;
 	display:block;
 	text-align:center;
-	margin:0 10px;
 	border-radius: 50%;
 	padding: 6px;
 	text-decoration:none;
-	box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-	background: linear-gradient(0deg, #ddd, #fff);
-	transition: .5s;
   }
   
-  .SocialIconMobile li a:hover {
-	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-	text-decoration:none;
-  }
   
   .SocialIconMobile  li a .fa {
 	width: 100%;
@@ -481,7 +495,7 @@
 	font-size:24px;
 	color: #262626;
 	transition: .5s;
-  }
+  } 
   
   .SocialIconMobile li:nth-child(1) a:hover .fa {
 	color: #3e039c;
