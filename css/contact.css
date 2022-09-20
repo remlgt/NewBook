@@ -30,59 +30,62 @@
     max-width: 840px;
   }
   
-  .form-control{
-    margin-bottom: 1em;
+  .formContactDesktop{
+    width:340px;
+    height:440px;
+    margin: 0;
+    box-sizing:border-box;
+    position:relative;
+    
+  }
+  
+  .InputCtcDesktop{
+    width:100%;padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    transition:all .3s;border-bottom:2px solid #f7cc00;
+  }
+  
+  .InputCtcDesktop:focus{
+    border-bottom:2px solid #F5F6FA;
   }
 
-  /* .form-group:focus {
-    border-color: #28a745;
-    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-  } */
-
-  /* Left contact page */
-  .form-horizontal {
-    /*float: left;*/
-    max-width: 400px;
-    font-weight: 400;
+  .InputCtcDesktop::placeholder {
+    color: rgb(155, 155, 155);
+    font-size: 1em;
   }
   
-  .form-control, 
-  textarea {
-    max-width: 400px;
-    background-color: #000;
-    color: #fff;
-    letter-spacing: 1px;
+  
+  .pContactDesktop:before{
+    content:attr(type);
+    display:block;margin:28px 0 0;
+    font-size:14px;
+    color:#F5F6FA
   }
   
-  .send-button {
-    margin-top: 15px;
-    height: 34px;
-    width: 400px;
-    overflow: hidden;
-    transition: all .2s ease-in-out;
+  .ContactBtnDesktop{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    border:2px solid #f7cc00;
+    background:0;
+    color:#f7cc00;
+    cursor:pointer;
+    transition:all .3s;
   }
   
-  .alt-send-button {
-    width: 400px;
-    height: 34px;
-    transition: all .2s ease-in-out;
-  }
-  
-  .send-text {
-    display: block;
-    margin-top: 10px;
-    font-weight: 700 ;
-    font-size: 14px;
-    letter-spacing: 2px;
-  }
-  
-  .alt-send-button:hover {
-    transform: translate3d(0px, -29px, 0px);
+  .ContactBtnDesktop:hover{
+    background:#212121;
+    color:#fff;
   }
   
   /* Begin Right Contact Page */
   .direct-contact-container {
     max-width: 400px;
+    margin-top:3.2em;
   }
   
   /* Location, Phone, Email Section */
@@ -129,68 +132,80 @@
   
   
   /* Social Media Icons */
-  .social-media-list {
-    position: relative;
-    font-size: 22px;
-    text-align: center;
+
+
+  .SocialIconDesktop {
+    width: 90%;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    }
+    
+    .SocialIconDesktop  li {
+    list-style: none;
+    }
+    
+    .SocialIconDesktop li a {
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #f7cc00, #e2d9ac);
+    transition: .5s;
+    }
+    
+    .SocialIconDesktop li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration:none;
+    }
+    
+    .SocialIconDesktop  li a .fa {
     width: 100%;
-    margin: 0 auto;
-    padding: 0;
-  }
-  
-  .social-media-list li a {
-    color: #fff;
-  }
-  
-  .social-media-list li {
-    position: relative; 
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    margin: 10px 3px;
-    line-height: 60px;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #f7cc00, #e2d9ac);
     border-radius: 50%;
-    color: #fff;
-    background-color: rgb(27,27,27);
-    cursor: pointer; 
-    transition: all .2s ease-in-out;
-  }
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color: #262626;
+    transition: .5s;
+    }
   
-  .social-media-list li:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    .SocialIconDesktop  li a .fa-brands {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #f7cc00, #e2d9ac);
     border-radius: 50%;
-    opacity: 0;
-    box-shadow: 0 0 0 1px #fff;
-    transition: all .2s ease-in-out;
-  }
-  
-  .social-media-list li:hover {
-    background-color: #fff; 
-  }
-  
-  .social-media-list li:hover:after {
-    opacity: 1;  
-    transform: scale(1.12);
-    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
-  }
-  
-  .social-media-list li:hover a {
-    color: #000;
-  }
-  
-  .copyright {
-    font-size: 14px;
-    font-weight:200;
-    color: #555;
-    letter-spacing: 1px;
-    text-align: center;
-  }
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color: #262626;
+    transition: .5s;
+    }
+    
+    .SocialIconDesktop li:nth-child(1) a:hover .fa {
+    color: #3e039c;
+    }
+    
+    .SocialIconDesktop  li:nth-child(2) a:hover .fa {
+    color: #a8adaf;
+    }
+    
+    .SocialIconDesktop  li:nth-child(3) a:hover .fa-brands {
+    color: #fda92c;
+    }
+    
+    .SocialIconDesktop li:nth-child(4) a:hover .fa-brands {
+    color: #3c3ab9;
+    }
   
   hr {
     border-color: rgba(255,255,255,.6);

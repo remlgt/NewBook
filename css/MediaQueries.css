@@ -3,12 +3,35 @@
 	display: none;
 }
 
-/* Start Nav Style */
-/* @media screen and (max-width: 900px)
+@media screen and (max-width: 1400px)
 {
+	.Article{
+		margin-right: 2em;
+		margin-left: 2em;
+		width: 45%;
+		font-size: 1.2em;
+		font-weight: 300;
+	}
+	.CVdownloadutton{
+		width: auto;
+		padding: 0.5em;
+	}
 
+	.ContainerGallery{
+		background-color: #212121;
+		width: 90%;
+		height: 100%;
+		margin-top: 2em;
+	}
+	.imgGallery{
+		height: 120%;
+		width: 100%;
+		padding: auto;
+		margin: auto;
+	}
 
-} */
+}
+
 
 
 /* Body Mobile etc */
